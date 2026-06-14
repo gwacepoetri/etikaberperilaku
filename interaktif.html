@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Media Interaktif</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+<body>
+    </section>
+<nav>
+<a href="index.html">Home</a>
+<a href="fenomena.html">Fenomena Sosial</a>
+<a href="nilai.html">Nilai Moral</a>
+<a href="interaktif.html">Media Interaktif</a>
+<a href="kesimpulan.html">Kesimpulan</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+<div class="card garuda-card">
+<img src="img/garuda.png" class="garuda-sticker">
+    
+</div>
+
+
+<section class="card">
+
+    <h2> Quiz Etika dan Moral</h2>
+
+    <p>Apa yang sebaiknya dilakukan ketika teman menyapa?</p>
+
+    <button onclick="cekQuiz('salah')">Mengabaikan</button>
+    <button onclick="cekQuiz('benar')">Membalas dengan ramah</button>
+    <button onclick="cekQuiz('salah')">Mengejek</button>
+
+    <p id="hasilQuiz"></p>
+
+</section>
+
+
+<section class="card">
+
+    <h2>💌 Simulasi Komentar</h2>
+
+    <input type="text" id="komen"
+    placeholder="Tulis komentar...">
+
+    <button onclick="cekKomentar()">
+        Kirim
+    </button>
+
+    <p id="hasilKomentar"></p>
+
+</section>
+
+
+<section class="card">
+
+    <h2> Polling</h2>
+
+    <p>Apakah etika berkomunikasi penting?</p>
+
+    <button onclick="vote('iya')">
+        Sangat Penting
+    </button>
+
+    <button onclick="vote('tidak')">
+        Kurang Penting
+    </button>
+
+    <p id="voteResult"></p>
+
+</section>
+
+
+<section class="card">
+
+    <h2>🌸 Janji Moral</h2>
+
+    <button onclick="janji()">
+        Saya Siap Beretika
+    </button>
+
+    <p id="janjiText"></p>
+
+</section>
+
+
+<section class="card">
+
+    <h2>🎁 Pesan Motivasi</h2>
+
+    <button onclick="motivasi()">
+        Dapatkan Pesan
+    </button>
+
+    <p id="motivasiText"></p>
+
+</section>
+<nav>
+    <script src="script.js"></script>
+</body>
+</html>

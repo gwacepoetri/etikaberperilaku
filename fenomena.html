@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fenomena Sosial</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="fenomena.html">Fenomena Sosial</a>
+<a href="nilai.html">Nilai Moral</a>
+<a href="interaktif.html">Media Interaktif</a>
+<a href="kesimpulan.html">Kesimpulan</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2 id="welcome"></h2>
+
+</div>
+
+<div class="card">
+<div class="card garuda-card">
+
+    <img src="img/garuda.png" class="garuda-sticker">
+<h2>🎥 Video Fenomena Sosial</h2>
+<video controls>
+<source src="video/WhatsApp Video 2026-06-14 at 23.08.21.mp4" type="video/mp4">
+</video>
+
+<p class="deskripsi-video">
+Video tersebut menunjukkan perilaku tidak membalas sapaan dan berkata kasar kepada orang lain. Sikap seperti ini sering dianggap sepele, namun dapat memberikan dampak negatif dalam kehidupan sosial. Tidak membalas sapaan dapat membuat seseorang merasa diabaikan dan tidak dihargai, sedangkan penggunaan kata-kata kasar dapat menyakiti perasaan orang lain serta memicu konflik. Perilaku tersebut menunjukkan kurangnya rasa hormat, kepedulian, dan empati terhadap sesama. Tindakan ini juga bertentangan dengan nilai-nilai yang terkandung dalam Sila Ke-2 Pancasila, yaitu Kemanusiaan yang Adil dan Beradab. Sila ini mengajarkan setiap individu untuk memperlakukan orang lain dengan sopan, menghargai sesama manusia, serta menjaga etika dalam berkomunikasi. Oleh karena itu, membiasakan diri untuk membalas sapaan dan menggunakan bahasa yang santun merupakan bentuk penerapan nilai kemanusiaan yang beradab dalam kehidupan sehari-hari.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>⚠ Dampak Sosial</h2>
+
+<ul>
+<li>Orang lain merasa tidak dihargai.</li>
+<li>Menimbulkan konflik.</li>
+<li>Mengurangi rasa hormat antar teman.</li>
+<li>Membuat lingkungan tidak nyaman.</li>
+</ul>
+
+</div>
+
+</div>
+<script>
+
+let nama = localStorage.getItem("namaUser");
+
+if(nama){
+document.getElementById("welcome").innerHTML =
+"🌸 Selamat Datang, " + nama + "!";
+}
+
+</script>
+</body>
+</html>
